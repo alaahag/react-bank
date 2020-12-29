@@ -10,6 +10,7 @@
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.6.0",
     "axios": "^0.21.1",
+    "elevation-pr": "^2.1.0",
     "mongoose": "^5.11.8",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -21,7 +22,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "review": "node node_modules/elevation-pr/index.js"
   },
   "eslintConfig": {
     "extends": [
@@ -45,5 +47,13 @@
   "main": "server.js",
   "devDependencies": {},
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alaahag/react-bank.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alaahag/react-bank/issues"
+  },
+  "homepage": "https://github.com/alaahag/react-bank#readme"
 }
